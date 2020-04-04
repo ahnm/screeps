@@ -21,7 +21,7 @@ var roleBuilder = {
                 }
 			}
 			else {
-				creep.say('😴 idle');
+				creep.say('😴');
 				creep.moveTo(Game.flags.Idle, {visualizePathStyle: {stroke: '#ffffff'}});
 			}
 	    }
